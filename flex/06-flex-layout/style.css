@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -34,8 +35,8 @@ input {
   flex:1;
 }
 .header>ul{
-  margin: 20px;
-  padding: 0;
+  margin: 0;
+  padding: 20px;
   display: flex;
   gap:30px;
   list-style-type: none;
@@ -50,16 +51,17 @@ li>a{
   flex-direction: column;
   align-items: center;
   flex: auto;
+  gap:3px;
 }
 .footer{
   display: flex;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: #eeeeee;
   flex-grow: 0;
 }
 .footer>ul{
-  margin: 10px 20px;
-  padding: 0;
+  margin: 0;
+  padding: 10px 20px;
   display: flex;
   gap:30px;
   list-style-type: none;
