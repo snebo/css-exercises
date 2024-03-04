@@ -17,10 +17,21 @@
   font-weight: bold;
   color: white;
 }
+ul{
+  list-style: none;
+}
 
 .header {
   background-color: #393f4d;
   grid-area: 1/1 / 2/-1;
+
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.menu ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
